@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto X</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0f0f0f;
+    color:white;
+    text-align:center;
+}
+
+header{
+    background:linear-gradient(90deg,#00ffcc,#0066ff);
+    padding:15px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.container{
+    padding:20px;
+}
+
+.card{
+    background:#1b1b1b;
+    border-radius:15px;
+    padding:15px;
+    margin:10px 0;
+    box-shadow:0 0 10px #00ffcc33;
+}
+
+button{
+    background:#00ffcc;
+    border:none;
+    padding:12px 18px;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.level{
+    color:#00ffcc;
+    font-weight:bold;
+    font-size:18px;
+}
+</style>
+</head>
+
+<body>
+
+<header>PROJETO X</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Perfil</h2>
+<p>Nome: <b>Richard</b></p>
+<p>Idade: <b>16</b></p>
+</div>
+
+<div class="card">
+<h2>Desafio 30 Dias</h2>
+<p class="level">Nível: Iniciante</p>
+<p>Treinos de 10 a 20 minutos por dia</p>
+<button onclick="start()">Começar Treino</button>
+</div>
+
+<div class
